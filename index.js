@@ -25,13 +25,13 @@ const newSearch = (array, targetValue) => {
   return -1; // in case the number is not in the collection, we resolve it to -1
 };
 
-// prime.forEach(onePrime=>{
-//     const result = newSearch(prime,onePrime);
-//     console.log(`Found prime number-> ${onePrime} @ index number ==> ${result} `);
-// })
+prime.forEach(onePrime=>{
+    const result = newSearch(prime,onePrime);
+    console.log(`Found prime number-> ${onePrime} @ index number ==> ${result} `);
+})
 
-const primeNumber = 39;
-const result = newSearch(prime, primeNumber);
-console.log(
-  `Found prime number-> ${primeNumber} @ index number ==> ${result} with counts==>${loopCounter}`
-);
+// const primeNumber = 39;
+// const result = newSearch(prime, primeNumber);
+// console.log(
+//   `Found prime number-> ${primeNumber} @ index number ==> ${result} with counts==>${loopCounter}`
+// );
